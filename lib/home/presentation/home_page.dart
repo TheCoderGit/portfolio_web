@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+//FIRSTSTAGE
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -19,7 +20,14 @@ class _HomePageState extends State<HomePage> {
               .textTheme
               .headlineLarge
               ?.copyWith(color: Colors.red),
-        )
+        ),
+        Text(
+          'this is the profile page',
+          style: Theme.of(context)
+              .textTheme
+              .headlineMedium
+              ?.copyWith(color: Colors.red),
+        ),
       ],
     );
   }
